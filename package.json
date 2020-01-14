@@ -1,0 +1,20 @@
+{
+	"name": "svelte-template-parcel",
+	"version": "1.0.0",
+	"description": "Simple Svelte template using parcel-bundler",
+	"main": "index.js",
+	"author": "Arun Chithambaram",
+	"browserslist": [
+		"last 2 chrome versions"
+	],
+	"scripts": {
+		"dev": "parcel ./public/index.html --open",
+		"build": "parcel build ./public/index.html --experimental-scope-hoisting"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-svelte": "^4.0.5",
+		"svelte": "^3.17.0"
+	}
+}
