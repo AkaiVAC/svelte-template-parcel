@@ -14,7 +14,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"parcel-bundler": "1.12.5",
-		"parcel-plugin-svelte": "4.0.6",
+		"parcel-plugin-svelte": "4.0.9",
 		"svelte": "3.42.4"
 	}
 }
